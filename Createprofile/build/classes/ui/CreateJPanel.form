@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="lbltelephonenumber" linkSize="3" alignment="1" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                          <Component id="lblname" linkSize="3" alignment="1" min="-2" pref="175" max="-2" attributes="0"/>
+                                          <Component id="lblgeographicdata" linkSize="3" min="-2" pref="175" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="lbldob" linkSize="3" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblfaxnumber" linkSize="3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblemailaddresses" linkSize="3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblssn" linkSize="3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblmediarecordnumber" linkSize="3" alignment="0" min="-2" pref="208" max="-2" attributes="0"/>
+                                  <Component id="lblhealthplanbeneficiarynumber" linkSize="3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblbankaccountnumber" linkSize="3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lblcertificatelicensenumber" linkSize="3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="lbllinkedin" linkSize="3" alignment="0" min="-2" pref="226" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtcertificatelicensenumber" linkSize="1" alignment="1" pref="201" max="32767" attributes="0"/>
+                              <Component id="txtbankaccountnumber" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                              <Component id="txthealthplanbeneficiarynumber" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                              <Component id="txtmediarecordnumber" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                              <Component id="txtssn" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                              <Component id="txtemailaddresses" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                              <Component id="txtfaxnumber" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                              <Component id="txttelephonenumber" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                              <Component id="txtdob" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                              <Component id="txtgeographicdata" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                              <Component id="txtName" linkSize="1" alignment="1" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="txtlinkedin" linkSize="1" alignment="0" min="-2" pref="201" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblip" linkSize="3" alignment="0" min="-2" pref="226" max="-2" attributes="0"/>
+                                  <Component id="lblbiometricidentifiers" linkSize="3" alignment="0" min="-2" pref="235" max="-2" attributes="0"/>
+                                  <Component id="lblfullfacephoto" linkSize="3" alignment="0" min="-2" pref="235" max="-2" attributes="0"/>
+                                  <Component id="lbluniqueidentifyingnumber" linkSize="3" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtfullfacephoto" linkSize="1" alignment="1" min="-2" pref="201" max="-2" attributes="0"/>
+                                  <Component id="txtbiometricidentifiers" linkSize="1" alignment="1" min="-2" pref="201" max="-2" attributes="0"/>
+                                  <Component id="txtip" linkSize="1" min="-2" pref="201" max="-2" attributes="0"/>
+                                  <Component id="txtuniqueidentificationnumber" linkSize="1" min="-2" pref="201" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblvehicleidentifiers" linkSize="3" min="-2" pref="216" max="-2" attributes="0"/>
+                                  <Component id="lbldeviceidentifiers" linkSize="3" alignment="0" min="-2" pref="216" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtvehicleidentifier" linkSize="1" alignment="1" min="-2" pref="201" max="-2" attributes="0"/>
+                                  <Component id="txtdeviceidentifiers" linkSize="1" alignment="1" min="-2" pref="201" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="197" max="-2" attributes="0"/>
+              <Component id="btnSave" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="lblCreate" min="-2" pref="171" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblCreate" min="-2" pref="19" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblname" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtName" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblgeographicdata" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtgeographicdata" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbldob" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtdob" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbltelephonenumber" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txttelephonenumber" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblfaxnumber" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtfaxnumber" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblemailaddresses" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtemailaddresses" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblssn" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtssn" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblmediarecordnumber" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtmediarecordnumber" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txthealthplanbeneficiarynumber" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                  <Component id="lblhealthplanbeneficiarynumber" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtbankaccountnumber" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                  <Component id="lblbankaccountnumber" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblcertificatelicensenumber" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcertificatelicensenumber" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblvehicleidentifiers" linkSize="4" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                  <Component id="txtvehicleidentifier" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbldeviceidentifiers" linkSize="4" alignment="3" min="-2" pref="13" max="-2" attributes="0"/>
+                  <Component id="txtdeviceidentifiers" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtlinkedin" linkSize="2" alignment="3" min="-2" pref="15" max="-2" attributes="0"/>
+                  <Component id="lbllinkedin" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtip" linkSize="2" alignment="3" pref="0" max="32767" attributes="0"/>
+                  <Component id="lblip" linkSize="4" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtbiometricidentifiers" linkSize="2" alignment="3" min="-2" pref="15" max="-2" attributes="0"/>
+                  <Component id="lblbiometricidentifiers" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtfullfacephoto" linkSize="2" alignment="3" min="-2" pref="15" max="-2" attributes="0"/>
+                  <Component id="lblfullfacephoto" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbluniqueidentifyingnumber" linkSize="4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtuniqueidentificationnumber" linkSize="2" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="32" max="32767" attributes="0"/>
+              <Component id="btnSave" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblCreate">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Create"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblname">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                                              Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblgeographicdata">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                           Geographic Data"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbldob">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                                       Date of Birth"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbltelephonenumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                          Telephone Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblfaxnumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                                       Fax Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblemailaddresses">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                                Email Addresses"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblssn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                      Social Security Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblmediarecordnumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                       Media Record Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblhealthplanbeneficiarynumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="        Health plan beneficiary number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblbankaccountnumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                     Bank account numbers"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblcertificatelicensenumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                 Certificate/license number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblvehicleidentifiers">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Vehicle identifiers and serial numbers "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbldeviceidentifiers">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Device identifiers and serial numbers"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbllinkedin">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                                             LinkedIn"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblip">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="             Internet protocol addresses"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblbiometricidentifiers">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                           Biometric identifiers"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblfullfacephoto">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="                                 Full face photos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbluniqueidentifyingnumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="          unique identifying number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtName">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtgeographicdata">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtgeographicdataActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtdob">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtdobActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txttelephonenumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txttelephonenumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfaxnumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtfaxnumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtemailaddresses">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtemailaddressesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtssn">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtssnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtmediarecordnumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtmediarecordnumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txthealthplanbeneficiarynumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txthealthplanbeneficiarynumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbankaccountnumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtbankaccountnumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtcertificatelicensenumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtcertificatelicensenumberActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtvehicleidentifier">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtvehicleidentifierActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtdeviceidentifiers">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtlinkedin">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtip">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbiometricidentifiers">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtfullfacephoto">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtuniqueidentificationnumber">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSaveActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
