@@ -1,0 +1,28 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package model;
+import java.util.ArrayList;
+/**
+ *
+ * @author Uttam Bagora
+ */
+public class Order {
+    ArrayList<OrderItem> orderItemList;
+    public Order(){
+        this.orderItemList = new ArrayList<OrderItem>();
+    }
+
+    public ArrayList<OrderItem> getOrderItemList() {
+        return orderItemList;
+    }
+
+    public void setOrderItemList(ArrayList<OrderItem> orderItemList) {
+        this.orderItemList = orderItemList;
+    }
+    public void addNewOrderItem (Product product,int price,int quantity){
+        OrderItem orderItem = new OrderItem();
+        orderItemList.add(orderItem);
+    }
+}
